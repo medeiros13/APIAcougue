@@ -67,7 +67,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Success Response Code: OK (200)
 
 #### Buscar usuário por id
-* Endpoint: http://localhost:5204/v1/users/<userId>
+* Endpoint: http://localhost:5204/v1/users/userId
 * HTTP Method: GET
 * HTTP Success Response Code: OK (200)
 
@@ -87,7 +87,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 ```
 
 #### Alterar usuário
-* Endpoint: http://localhost:5204/v1/users/<userId>
+* Endpoint: http://localhost:5204/v1/users/userId
 * HTTP Method: PUT
 * HTTP Success Response Code: No Content (204)
 * Contract:
@@ -102,7 +102,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 ```
 
 #### Remover usuário
-* Endpoint: http://localhost:5204/v1/users/<userId>
+* Endpoint: http://localhost:5204/v1/users/userId
 * HTTP Method: DELETE
 * HTTP Success Response Code: OK (200)
 
@@ -113,7 +113,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Success Response Code: OK (200)
 
 #### Buscar produto por id
-* Endpoint: http://localhost:5204/v1/products/<productId>
+* Endpoint: http://localhost:5204/v1/products/productId
 * HTTP Method: GET
 * HTTP Success Response Code: OK (200)
 
@@ -133,7 +133,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 ```
 
 #### Alterar produto
-* Endpoint: http://localhost:5204/v1/products/<productId>
+* Endpoint: http://localhost:5204/v1/products/productId
 * HTTP Method: PUT
 * HTTP Success Response Code: No Content (204)
 * Contract:
@@ -148,7 +148,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 ```
 
 #### Remover produto
-* Endpoint: http://localhost:5204/v1/products/<productId>
+* Endpoint: http://localhost:5204/v1/products/productId
 * HTTP Method: DELETE
 * HTTP Success Response Code: OK (200)
 
@@ -159,7 +159,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Success Response Code: OK (200)
 
 #### Buscar venda por id
-* Endpoint: http://localhost:5204/v1/sales/<saleId>
+* Endpoint: http://localhost:5204/v1/sales/saleId
 * HTTP Method: GET
 * HTTP Success Response Code: OK (200)
 
@@ -193,7 +193,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 ```
 
 #### Alterar venda
-* Endpoint: http://localhost:5204/v1/sales/<saleId>
+* Endpoint: http://localhost:5204/v1/sales/saleId
 * HTTP Method: PUT
 * HTTP Success Response Code: No Content (204)
 * Contract:
@@ -222,7 +222,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 ```
 
 #### Remover venda
-* Endpoint: http://localhost:5204/v1/sales/<saleId>
+* Endpoint: http://localhost:5204/v1/sales/saleId
 * HTTP Method: DELETE
 * HTTP Success Response Code: OK (200)
 
@@ -233,7 +233,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Success Response Code: OK (200)
 
 #### Buscar item da venda por id
-* Endpoint: http://localhost:5204/v1/saleitems/<saleItemId>
+* Endpoint: http://localhost:5204/v1/saleitems/saleItemId
 * HTTP Method: GET
 * HTTP Success Response Code: OK (200)
 
@@ -257,7 +257,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 ```
 
 #### Alterar item da venda
-* Endpoint: http://localhost:5204/v1/saleitems/<saleItemId>
+* Endpoint: http://localhost:5204/v1/saleitems/saleItemId
 * HTTP Method: PUT
 * HTTP Success Response Code: No Content (204)
 * Contract:
