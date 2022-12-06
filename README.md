@@ -76,7 +76,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Method: POST
 * HTTP Success Response Code: Created (201)
 * Contract:
-** Request Payload:
+    * Request Payload:
 
 ```json
 {
@@ -91,7 +91,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Method: PUT
 * HTTP Success Response Code: No Content (204)
 * Contract:
-** Request Payload:
+    * Request Payload:
 
 ```json
 {
@@ -122,7 +122,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Method: POST
 * HTTP Success Response Code: Created (201)
 * Contract:
-** Request Payload:
+    * Request Payload:
 
 ```json
 {
@@ -137,7 +137,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Method: PUT
 * HTTP Success Response Code: No Content (204)
 * Contract:
-** Request Payload:
+    * Request Payload:
 
 ```json
 {
@@ -168,7 +168,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Method: POST
 * HTTP Success Response Code: Created (201)
 * Contract:
-** Request Payload:
+    * Request Payload:
 
 ```json
 {
@@ -197,7 +197,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Method: PUT
 * HTTP Success Response Code: No Content (204)
 * Contract:
-** Request Payload:
+    * Request Payload:
 
 ```json
 {
@@ -242,7 +242,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Method: POST
 * HTTP Success Response Code: Created (201)
 * Contract:
-** Request Payload:
+    * Request Payload:
 
 ```json
 {
@@ -261,7 +261,7 @@ A aplicação conta com endpoints de Create, Read, Update, Delete para todas as 
 * HTTP Method: PUT
 * HTTP Success Response Code: No Content (204)
 * Contract:
-** Request Payload:
+    * Request Payload:
 
 ```json
 {
